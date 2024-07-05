@@ -1,5 +1,5 @@
 
-FROM python:3.9-slim
+FROM python:3.7-slim
 
 # Set up an app directory for your code
 COPY . /app
