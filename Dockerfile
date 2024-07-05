@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 # Install `pip` and needed Python packages from `requirements.txt`
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN pip install -r analytics/requirements.txt
 
 EXPOSE 5000
 
@@ -18,4 +18,4 @@ EXPOSE 5000
 # ENV DB_NAME=project3DB
 
 # 
-CMD ["python", "app.py"]
+CMD ["python", "analytics/app.py"]
