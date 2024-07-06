@@ -44,18 +44,6 @@ spec:
             port: 5153
           initialDelaySeconds: 5
           timeoutSeconds: 5
-        getDailyUsage:
-          httpGet:
-            path: "/api/reports/daily_usage"
-            port: 5153
-          initialDelaySeconds: 5
-          timeoutSeconds: 5
-        getUserVisits:
-          httpGet:
-            path: "/api/reports/user_visits"
-            port: 5153
-          initialDelaySeconds: 5
-          timeoutSeconds: 5
         envFrom:
         - configMapRef:
             name: coworking-map
