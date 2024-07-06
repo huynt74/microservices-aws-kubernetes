@@ -4,8 +4,8 @@ metadata:
   name: coworking-map
 data:
   DB_NAME: project3DB
-  DB_USER: huynt42
-  DB_HOST: postgresql-65994ccb46-sb8tb
+  DB_USERNAME: huynt42
+  DB_HOST: 10.100.254.106
   DB_PORT: '5432'
 ---
 apiVersion: v1

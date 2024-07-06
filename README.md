@@ -129,3 +129,6 @@ Please provide up to 3 sentences for each suggestion. Additional content in your
 ### Best Practices
 * Dockerfile uses an appropriate base image for the application being deployed. Complex commands in the Dockerfile include a comment describing what it is doing.
 * The Docker images use semantic versioning with three numbers separated by dots, e.g. `1.2.1` and  versioning is visible in the  screenshot. See [Semantic Versioning](https://semver.org/) for more details.
+
+## Base URL
+- http://a4ced055c6eb94e70878bdeddfe85bc8-1714063222.us-east-1.elb.amazonaws.com:5153/
